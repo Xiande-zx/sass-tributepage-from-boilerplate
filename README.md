@@ -24,7 +24,7 @@ Hazlo y observa que efecto ocurre. Por cierto, nos piden que usemos el formato R
 7. Queremos crear un estilo de borde para poder reutilizar en el futuro en 
 varias partes de la Web. Crea un [mixin](https://www.w3schools.com/sass/sass_mixin_include.asp) en **abstracts/_mixins.scss** de nombre 'addBorder'. Este mixin toma 1 parámetro de entrada, que será el grosor del borde. El mixin debe generar un borde de dicho grosor, sólido y de color "Main brand color". Aplica después el borde a la foto con una regla SASS.
 
-8. Nos hemos dado cuenta al aplicar el borde que la foto no "cabe" dentro del contenedor asignado, ni tampoco es responsive. Mira que estilos debes aplicar a la imagen para que se vuelva [responsive](https://www.w3schools.com/sass/sass_mixin_include.asp). Puesto que queremos que **todas** las ímagenes de nuestra Web se comporten de la misma manera, piensa donde definir estos estilos.
+8. Nos hemos dado cuenta al aplicar el borde que la foto no "cabe" dentro del contenedor asignado, ni tampoco es responsive. Mira que estilos debes aplicar a la imagen para que se vuelva [responsive](https://www.w3schools.com/howto/howto_css_image_responsive.asp). Puesto que queremos que **todas** las ímagenes de nuestra Web se comporten de la misma manera, piensa donde definir estos estilos.
 
 9. Crea una media query **anidada** de manera que el borde en la foto solo se incluye en el caso que el ancho del dispositivo sea, como mínimo, de 768px. Incluye la media query en el lugar adecuado en **pages/_home.scss**
 
